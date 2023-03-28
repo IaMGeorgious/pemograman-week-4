@@ -1,0 +1,49 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 70px;
+}
+
+h1{
+    font-size: 80px;
+    margin: 0px;
+    color: #0a0a29;
+    font-family: Titallium Web;
+}
+
+h1 span{
+    color: #536DFE;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 20px;
+  align-items: center;
+}
+
+img{
+    width: 450px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p{
+    font-size: 25px;
+    font-family: Titallium Web;
+    color: #0a0a29;
+    border-radius: 2px;
+    text-align: justify;
+}
+
+body{
+    max-width: 1280px;
+    overflow-x: hidden;
+}
+
